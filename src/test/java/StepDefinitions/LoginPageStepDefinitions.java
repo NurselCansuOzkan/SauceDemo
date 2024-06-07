@@ -65,4 +65,9 @@ public class LoginPageStepDefinitions {
     public void writeCorrectForPasswordField(String arg0) {
         loginPage.correctPasswordForPasswordField();
     }
+
+    @Then("Check Successful login")
+    public void checkSuccessfulLogin() {
+        loginPage.checkSuccessful();
+    }
 }

@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d9a3fe9-bcf3-46b2-97f6-ebbcf41027c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/SauceDemo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginPageStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testNG.xml" afterDir="false" />
+    <list default="true" id="8d9a3fe9-bcf3-46b2-97f6-ebbcf41027c1" name="Changes" comment="Sauce Demo Login Test with Cucumber">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/Reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/CucumberReport/Reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/SauceDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/SauceDemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginPageStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +51,22 @@
   <component name="RunManager">
     <configuration name="/Users/nurselcansu/IdeaProjects/SauceDemo/src/test/resources/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1717599790166</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sauce Demo Login Test with Cucumber">
+      <created>1717755947278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717755947278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +106,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sauce Demo Login Test" />
+    <MESSAGE value="Sauce Demo Login Test with Cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sauce Demo Login Test with Cucumber" />
   </component>
 </project>

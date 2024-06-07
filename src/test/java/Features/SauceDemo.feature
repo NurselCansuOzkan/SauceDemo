@@ -52,3 +52,14 @@
       Examples:
       |username ||password    ||error    |
       |abcdef   ||secret_sauce||Username and password do not match any user in this service         |
+
+    @CorrectLogin
+    Scenario Outline: Correct Username & Correct Password
+      Given User at home page
+      When write correct "<username>" for username field
+      When write correct "<password>" for password field
+      When Click Login button
+      Then Check Successful login
+      Examples:
+        |username         ||password |
+        |standard_user    ||secret_sauce   |

@@ -23,6 +23,7 @@ public class LoginPage {
     By errorMessage = By.cssSelector("h3[data-test='error']");
     By usernameBox = By.cssSelector("#user-name");
     By password = By.cssSelector("#password");
+    By producttext = By.cssSelector(".title");
 
 
     public void userAtHomePage() {
@@ -64,5 +65,9 @@ public class LoginPage {
     public void correctPasswordForPasswordField() {
         elementHelper.click(password);
         elementHelper.sendKey(password, "secret_sauce");
+    }
+
+    public void checkSuccessful() {
+        elementHelper.checkVisible(producttext);
     }
 }

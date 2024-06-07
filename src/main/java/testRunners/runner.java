@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 @CucumberOptions(
         features = {"src/test/java/Features"},
         glue = {"StepDefinitions", "util"},
-        tags = "@FalseLogin",
+        tags = "",
         plugin = {
                 "summary","pretty","html:Reports/CucumberReport/Reports.html"
         }
